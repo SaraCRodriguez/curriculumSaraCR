@@ -339,6 +339,7 @@
 
    // apartado 1
    .sobreMi_foto {
+      max-width: 400px;
       min-width: 320px;
       opacity: 0;
       animation: sobreMi_foto .4s ease-in-out .2s 1 normal forwards;
@@ -1636,6 +1637,7 @@
          .competencias_logo {
             img {
                border-radius: 10px;
+               min-width: 100px;
             }
          }
       }
@@ -1754,9 +1756,11 @@
       .section_sobreMi {
          flex-direction: column;
          >div:nth-of-type(1) {
+            width: 100%;
             margin-bottom: 20px;
          }
          .sobreMi_txt {
+            width: 90%;
             p {
                text-align: center;
             }
@@ -1768,6 +1772,51 @@
          }
          img.img_except {
             width: 640px;
+         }
+      }
+   }
+   @media(max-width: 1260px) {
+      .section_experiencia {
+         text-align: center;
+         .h301, .h302, .h303 {
+            width: 100%;
+            text-align: center;
+         }
+         .experiencia_exp {
+            width: 100%;
+         }
+      }
+      .section_competencias {
+         .competencias_logo {
+            width: 120px;
+         }
+      }
+      .section_proyectos {
+         img {
+            width: 250px;
+         }
+         img.img_except {
+            width: 500px;
+         }
+      }
+   }
+   @media(max-width: 1140px) {
+      .section_estudios {
+         width: 90%;
+         text-align: center;
+         h3 {
+            font-size: 1.2rem;
+            width: 100%;
+            text-align: center;
+         }
+         .estudios_container {
+            width: 100%;
+         }
+      }
+      .section_proyectos {
+         width: 90%;
+         .proyectos_container {
+            width: 90%;
          }
       }
    }
