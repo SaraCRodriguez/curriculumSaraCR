@@ -89,6 +89,7 @@ body canvas {
 .container__contactForm img {
   width: 100px;
   margin: 20px;
+  object-fit: cover;
 }
 
 .container__contactForm a {
@@ -1870,7 +1871,6 @@ h6, .h6 {
   top: 5px;
   z-index: 10000;
   transition: .4s ease-in-out;
-  flex-direction: row-reverse;
 }
 
 .selectIdiom p {
@@ -1999,6 +1999,16 @@ h6, .h6 {
   }
   .section_proyectos .proyectos_container {
     width: 90%;
+  }
+}
+
+@media (max-width: 630px) {
+  .section_estudios {
+    width: 100%;
+    margin: 0;
+  }
+  .section_estudios h3 {
+    font-size: 1rem;
   }
 }
 

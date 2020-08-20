@@ -42,6 +42,7 @@
       img {
          width: 100px;
          margin: 20px;
+         object-fit: cover;
       }
       a {
          color: $color-white;
@@ -1688,7 +1689,7 @@
       top: 5px;
       z-index: 10000;
       transition: .4s ease-in-out;
-      flex-direction: row-reverse;
+      // flex-direction: row-reverse;
       p {
          padding: 5px 10px 5px 10px;
          cursor: pointer;
@@ -1817,6 +1818,15 @@
          width: 90%;
          .proyectos_container {
             width: 90%;
+         }
+      }
+   }
+   @media(max-width: 630px) {
+      .section_estudios {
+         width: 100%;
+         margin: 0;
+         h3 {
+            font-size: 1rem;
          }
       }
    }
