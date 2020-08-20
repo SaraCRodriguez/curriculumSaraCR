@@ -1,0 +1,15 @@
+@if $include-fonts == true {
+
+@font-face {
+   font-family: principal;
+   font-display: swap;
+   src: local(BOOKOS),
+    url(../typo/BOOKOS.woff2);
+}
+@font-face {
+   font-family: titles;
+   font-display: swap;
+   src: local(SaucerBB),
+    url(../typo/SaucerBB.woff2);
+}
+}
