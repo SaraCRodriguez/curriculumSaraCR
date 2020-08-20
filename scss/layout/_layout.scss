@@ -264,9 +264,6 @@
       margin-left: auto;
       margin-right: auto;
       align-items: center;
-      @media(max-width: 1685px) {
-         flex-direction: column;
-      }
    }
    .puntos {
       font-family: titles;
@@ -1747,6 +1744,30 @@
          transition: .4s ease-in-out;
          &:hover {
             transition: .5s ease-in-out;
+         }
+      }
+   }
+
+
+   // MEDIAS
+   @media(max-width: 1685px) {
+      .section_sobreMi {
+         flex-direction: column;
+         >div:nth-of-type(1) {
+            margin-bottom: 20px;
+         }
+         .sobreMi_txt {
+            p {
+               text-align: center;
+            }
+         }
+      }
+      .section_proyectos {
+         img {
+            width: 320px;
+         }
+         img.img_except {
+            width: 640px;
          }
       }
    }
