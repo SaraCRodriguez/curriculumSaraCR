@@ -15,13 +15,6 @@
       &::-webkit-scrollbar {
          display: none;
       }
-      // @media(max-width: 580px) {
-      //    font-size: 26px;
-      //    p {
-      //       font-size: 1.1rem;
-      //       line-height: 1.7rem;
-      //    }
-      // }
       #scrollBox {
          overflow-x: hidden;
          &::-webkit-scrollbar {
@@ -71,6 +64,7 @@
    .btn__up {
       transform: rotate(180deg);
       position: fixed;
+      z-index: 100;
       top: 50%;
       right: 0;
       margin: 20px;
@@ -278,6 +272,7 @@
       width: 100px;
       margin: 30px;
       position: fixed;
+      z-index: 100;
       bottom: 0;
       right: 0;
       cursor: pointer;
@@ -1705,12 +1700,6 @@
       &:hover {
          right: 0;
       }
-      // @media(max-width: 581px) {
-      //    right: -65px;
-      //    p{
-      //       font-size: 1.1em;
-      //    }
-      // }
    }
 
    // POP-UP COOKIES
@@ -1776,6 +1765,17 @@
       }
    }
    @media(max-width: 1260px) {
+      .contactForm, .btn__up {
+         opacity: .8;
+      }
+      .contactForm {
+         width: 80px;
+      }
+      .btn__up {
+         .h3 {
+            font-size: 1.2rem;
+         }
+      }
       .section_experiencia {
          text-align: center;
          .h301, .h302, .h303 {

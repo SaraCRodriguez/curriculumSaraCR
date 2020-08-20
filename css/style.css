@@ -112,6 +112,7 @@ body canvas {
 .btn__up {
   transform: rotate(180deg);
   position: fixed;
+  z-index: 100;
   top: 50%;
   right: 0;
   margin: 20px;
@@ -343,6 +344,7 @@ section {
   width: 100px;
   margin: 30px;
   position: fixed;
+  z-index: 100;
   bottom: 0;
   right: 0;
   cursor: pointer;
@@ -1949,6 +1951,15 @@ h6, .h6 {
 }
 
 @media (max-width: 1260px) {
+  .contactForm, .btn__up {
+    opacity: .8;
+  }
+  .contactForm {
+    width: 80px;
+  }
+  .btn__up .h3 {
+    font-size: 1.2rem;
+  }
   .section_experiencia {
     text-align: center;
   }
