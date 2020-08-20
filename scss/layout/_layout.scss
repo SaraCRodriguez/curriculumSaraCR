@@ -1761,6 +1761,14 @@
             }
          }
       }
+      .section_proyectos {
+         img {
+            width: 320px;
+         }
+         img.img_except {
+            width: 640px;
+         }
+      }
    }
    @media(max-width: 1440px) {
       .section_experiencia {
@@ -1794,6 +1802,14 @@
          }
          .experiencia_exp {
             width: 100%;
+         }
+      }
+      .section_proyectos {
+         img {
+            width: 250px;
+         }
+         img.img_except {
+            width: 500px;
          }
       }
    }
@@ -1882,6 +1898,12 @@
       .section_proyectos {
          .proyectos_container {
             width: 100%;
+         }
+         img {
+            width: 200px;
+         }
+         img.img_except {
+            width: 400px;
          }
       }   
    }

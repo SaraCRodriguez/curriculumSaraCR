@@ -1948,6 +1948,12 @@ h6, .h6 {
   .section_sobreMi .sobreMi_txt p {
     text-align: center;
   }
+  .section_proyectos img {
+    width: 320px;
+  }
+  .section_proyectos img.img_except {
+    width: 640px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -1978,6 +1984,12 @@ h6, .h6 {
   }
   .section_experiencia .experiencia_exp {
     width: 100%;
+  }
+  .section_proyectos img {
+    width: 250px;
+  }
+  .section_proyectos img.img_except {
+    width: 500px;
   }
 }
 
@@ -2063,6 +2075,12 @@ h6, .h6 {
   }
   .section_proyectos .proyectos_container {
     width: 100%;
+  }
+  .section_proyectos img {
+    width: 200px;
+  }
+  .section_proyectos img.img_except {
+    width: 400px;
   }
 }
 
