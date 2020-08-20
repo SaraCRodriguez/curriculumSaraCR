@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description"
+        content="Currículum web de Sara C. Rodríguez - modelista 3D, fotógrafa, diseñadora de joyería y orfebrería, y diseñadora y programadora web.">
+    <title>Sara C. Rodríguez</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <script defer src="js/functions.js"></script>
+</head>
+
+<body>
+    <span class="bg_rect01"></span>
+    <span class="bg_rect02"></span>
+    <span class="bg_rect03"></span>
+    <span class="bg2_rect01"></span>
+    <span class="bg2_rect02"></span>
+    <span class="bg2_rect03"></span>
+
+    <canvas id="c"></canvas>
+
+    <!-- HEADER -->
+    <header class="flex  inColumns  vCenter">
+        <h1 id="sobreMi" class="mt50">Sara C. Rodriguez</h1>
+
+        <!-- CAMBIO DE IDIOMAS -->
+        <div class="selectIdiom  flex">
+            <div>
+                <p><a href="EN/index.html" class="uppercase  h3">EN</a></>
+            </div>
+            <div>
+                <p><a href="index.html" class="uppercase  h3">ES</a></p>
+            </div>
+        </div>
+
+        <nav class="headerNav  mb50">
+            <a class="sobreMi" href="#sobreMi">Sobre mí</a>
+            <a class="experiencia" href="#experiencia">Experiencia</a>
+            <a class="estudios" href="#estudios">Estudios</a>
+            <a class="competencias" href="#competencias">Competencias</a>
+            <a class="proyectos" href="#proyectos">Proyectos</a>
+        </nav>
+    </header>
+
+    <!-- BOTON PARA SUBIR ARRIBA -->
+    <div class="btn__up">
+        <a class="h3" href="#sobreMi">V</a>
+    </div>
+
+    <!-- CONTACTO -->
+    <!-- $$ FORMULARIO DE CONTACTO -->
+    <div>
+        <button type="button" class="contactForm" onclick="openContacto()">
+            <img src="img/Sobre.svg"
+                alt="Icono que al pinchar en él te abre un cuadro de diálogo pen el que encontrarás mi número de teléfono, mi e-mail y mi páginas web.">
+        </button>
+    </div>
+    <div class="container__contactForm  form_animacion  hide">
+        <div class="flex--center  vCenter">
+            <img src="img/whatsapp.svg" alt="Icono de WhatsApp">
+            <p>(+34) 615 348 127</p>
+        </div>
+        <div class="flex--center  vCenter">
+            <img src="img/contact.svg" alt="Icono de e-mail">
+            <p>sara.cueva.rodriguez@hotmail.com</p>
+        </div>
+        <div class="flex--center  vCenter">
+            <img src="img/globe.svg" alt="Icono de página web">
+            <a class="pointer" target="_blank"
+                href="https://mandragoracreations.com/">https://mandragoracreations.com/</a>
+        </div>
+    </div>
+
+    <main class="pr20  pl20">
+        <!-- SOBRE MI -->
+        <section class="section_sobreMi">
+            <div class="w30  txtc">
+                <img class="sobreMi_foto  borderRadius" src="img/foto.jpg" alt="Foto de Sara C. Rodríguez">
+                <div class="sobreMi_info">
+                    <p>sara.cueva.rodriguez@hotmail.com</p>
+                    <p>(+34)615 348 127</p>
+                    <p>Coche propio</p>
+                </div>
+            </div>
+            <div class="w60  sobreMi_txt">
+                <p class="mb10">Soy una de las primeras componentes en el comienzo como marca de MC Virtuti S.L., de
+                    la
+                    cual he
+                    formado
+                    parte 10años y para la que aún hago trabajos como freelance, tanto de piezas de joyería como de
+                    orfebrería.</p>
+                <p>Usando ZBrush, Rhinoceros 3D, V-Ray, KeyShot, para renderizados, y Netfabb, entre otros, para la
+                    realización de los 3D y su posterior preparación para la fabricación. </p>
+                <p class="mb10">Para la edición fotográfica de los productos hago uso de Lightroom. Además he estado
+                    a
+                    cargo de los
+                    Newsletters, administrando los perfiles en redes sociales y participando activamente en la
+                    creación
+                    de
+                    la página web e imagen corporativa de la empresa. También hago uso de herramientas Office, como
+                    Excel
+                    para llevar un control de los pedidos; Adobe Illustrator para hacer planchas de Fotograbado;
+                    además
+                    del
+                    uso de Photoshop como herramienta de diseño de producto.</p>
+                <p>Me considero una persona perfeccionista, a la que le gusta el trabajo en equipo.</p>
+                <p class="mb10">Mi nivel de inglés es alto, tanto hablado como escrito; y nivel medio de japonés
+                    hablado.</p>
+                <p>Siempre busco seguir creciendo y formarme en el ámbito de diseño y modelaje 3D. Además he
+                    realizando
+                    un
+                    máster de diseño y programación web en la Escuela Profesional de Nuevas Tecnologías CICE, en la
+                    cual
+                    también he realizado cursos de ZBrush y Cinema 4D.</p>
+            </div>
+        </section>
+
+        <!-- EXPERIENCIA -->
+        <section id="experiencia" class="inColumns">
+            <h2><span>E</span><span>x</span><span>p</span><span>e</span><span>r</span><span>i</span><span>e</span><span>n</span><span>c</span><span>i</span><span>a</span>
+            </h2>
+
+            <div class="flex--evenly  w90  mb10">
+                <h3 class="w30  txtr  h301">MC Virtuti S.L.</h3>
+                <div class="w50">
+                    <div class="destacado">
+                        <p>Guadalajara, España (2009-2020)</p>
+                        <p>Diseñadora, fotógrafa y modelista 3D</p>
+                    </div>
+                    <div>
+                        <p><span class="puntos">o</span> Encargada de las secciones de modelaje 3D y fotografía.</p>
+                        <p><span class="puntos">o</span> Encargada de los Newsletters.</p>
+                        <p><span class="puntos">o</span> Administración de los perfiles en redes sociales y
+                            participando
+                            activamente en la creación de la página web e imagen corporativa de la empresa.</p>
+                        <p class="mb50"><span class="puntos">o</span> Diseño de producto y fabricación.</p>
+                    </div>
+
+                    <!-- EJEMPLOS -->
+                    <div class="mb50  ejemplos">
+                        <img src="img/Virtuti03.jpg"
+                            alt="Ejemplo de pieza de orfebrería terminada en la que se ve un halcón con la capucha puesta posado cobre un guante de cetrero">
+                        <img src="img/Virtuti01.jpg"
+                            alt="Ejemplo de pieza de joyería terminada en la que se ve un colgante redondo de mariposas.">
+                        <img src="img/Virtuti02.gif"
+                            alt="Ejemplo de pieza de joyería terminada en formato GIF animado en el que se ve una sortija de una mujer tumbada. Preparado para su uso en páginas web.">
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-1  mb50">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="flex--evenly  vCenter  w90  mb50">
+                <h3 class="w30  txtr  h302">Tanatorio Municipal Torrejon de Ardoz</h3>
+                <div class="w50">
+                    <div class="destacado02">
+                        <p>Madrid, España (Agosto de 2016)</p>
+                        <p>Técnico en Tanatoestética - Prácticas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-2  mb50">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="flex--evenly  w90  mb10">
+                <h3 class="w30  txtr  h303">Jesus Yanes</h3>
+                <div class="w50">
+                    <div class="destacado03">
+                        <p>Madrid, España (2019)</p>
+                        <p>Modelista 3D</p>
+                    </div>
+                    <div>
+                        <p><span class="puntos">o</span> Enfocada a crear las distintas piezas de todas las
+                            colecciones
+                            para
+                            crear sus renderizados 3D y usarlos en la <a class="underline"
+                                href="https://chic-loops.com/">página web</a> como
+                            imágenes de producto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESTUDIOS -->
+        <section id="estudios" class="inColumns">
+            <h2><span>E</span><span>s</span><span>t</span><span>u</span><span>d</span><span>i</span><span>o</span><span>s</span>
+            </h2>
+
+            <div class="flex--evenly  vCenter  w90  mb50">
+                <h3 class="w30  txtr  estudiosh3_01">Escuela de Arte</h3>
+                <div class="w50">
+                    <div class="destacado">
+                        <p>Guadalajara, España (2010)</p>
+                        <p>Bachillerato de artes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex--evenly  vCenter  w90  mb50">
+                <h3 class="w30  txtr  estudiosh3_02">Codis</h3>
+                <div class="w50">
+                    <div class="destacado02">
+                        <p>Madrid, España (410horas lectivas, 2016)</p>
+                        <p>Técnico en Tanatoestética</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex--evenly  w90  mb30">
+                <h3 class="w30  txtr  estudiosh3_03">Cice</h3>
+                <div class="w50">
+                    <div class="mb20">
+                        <div class="destacado03">
+                            <p>Curso Intensivo de Cinema 4D</p>
+                            <p>Madrid, España (2019)</p>
+                        </div>
+                        <div>
+                            <p><span class="puntos">o</span> Creación de objetos 3D.</p>
+                            <p><span class="puntos">o</span> Materiales.</p>
+                            <p><span class="puntos">o</span> Iluminación.</p>
+                            <p><span class="puntos">o</span> Animación de objetos y cámaras.</p>
+                        </div>
+                    </div>
+                    <div class="mb20">
+                        <div class="destacado04">
+                            <p>Curso Intensivo de Modelado Orgánico con Zbrush</p>
+                            <p>Madrid, España (2019)</p>
+                        </div>
+                        <div>
+                            <p><span class="puntos">o</span> ZSpheres.</p>
+                            <p><span class="puntos">o</span> Modelar con primitivas y Dynamesh.</p>
+                            <p><span class="puntos">o</span> Retopología.</p>
+                            <p><span class="puntos">o</span> Alphas y Brushes.</p>
+                            <p><span class="puntos">o</span> Hardsurfaces.</p>
+                            <p><span class="puntos">o</span> Modelado orgánico.</p>
+                            <p><span class="puntos">o</span> UV Maps.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destacado05">
+                            <p>Máster en Diseño y Desarrollo de sitios Web ( Oficial de Adobe)</p>
+                            <p>Madrid, España (2019-2020)</p>
+                        </div>
+                        <div>
+                            <p><span class="puntos">o</span> Diseño web en Adobe XD</p>
+                            <p><span class="puntos">o</span> HTML5</p>
+                            <p><span class="puntos">o</span> CSS</p>
+                            <p><span class="puntos">o</span> Subida de Proyectos a GitHub</p>
+                            <p><span class="puntos">o</span> SCSS</p>
+                            <p><span class="puntos">o</span> JavaScript</p>
+                            <p><span class="puntos">o</span> PHP</p>
+                            <p><span class="puntos">o</span> Publicación de la página web</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPETENCIAS -->
+        <section id="competencias" class="inColumns">
+            <h2><span>C</span><span>o</span><span>m</span><span>p</span><span>e</span><span>t</span><span>e</span><span>n</span><span>c</span><span>i</span><span>a</span><span>s</span>
+            </h2>
+
+            <div class="flex--evenly  vCenter  mb40">
+                <div id="comp_zbrush" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#84fab0"
+                        data-color2="#8fd3f4" data-color3="#a28ff4">
+                    </svg>
+                    <p class="txtc">ZBrush</p>
+                </div>
+
+                <div id="comp_adobe" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#8fd3f4"
+                        data-color2="#a28ff4" data-color3="#e679f5">
+                    </svg>
+                    <p class="txtc">Adobe</p>
+                </div>
+
+                <div id="comp_netfabb" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#a28ff4"
+                        data-color2="#e679f5" data-color3="#e97ba9">
+                    </svg>
+                    <p class="txtc">Netfabb & Magics</p>
+                </div>
+
+                <div id="comp_rhino" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#e679f5"
+                        data-color2="#e97ba9" data-color3="#f4b78f">
+                    </svg>
+                    <p class="txtc">Rhinoceros</p>
+                </div>
+
+                <div id="comp_web" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#e97ba9"
+                        data-color2="#f4b78f" data-color3="#aff48f">
+                    </svg>
+                    <p class="txtc">Diseño & Programación Web</p>
+                </div>
+
+                <div id="comp_spine" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#f4b78f"
+                        data-color2="#aff48f" data-color3="#71dfb5">
+                    </svg>
+                    <p class="txtc">Spine</p>
+                </div>
+
+                <div id="comp_otros" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#aff48f"
+                        data-color2="#71dfb5" data-color3="#55b9d8">
+                    </svg>
+                    <p class="txtc">Otros Programas</p>
+                </div>
+
+                <div id="comp_aptitudes" class="flex  vCenter inColumns cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor="0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#71dfb5"
+                        data-color2="#55b9d8" data-color3="#6260b9">
+                    </svg>
+                    <p class="txtc">+ Aptitudes</p>
+                </div>
+
+                <div id="comp_idiomas" class="flex  vCenter  inColumns  cursorPointer">
+                    <svg class="liquid-button  uppercase" data-force-factor=" 0.1" data-layer-1-viscosity="0.9"
+                        data-layer-2-viscosity="0.7" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
+                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#55b9d8"
+                        data-color2="#6260b9" data-color3="#8fd3f4">
+                    </svg>
+                    <p class="txtc">Idiomas</p>
+                </div>
+            </div>
+            <div>
+                <!-- ZBRUSH -->
+                <div class="comp_apart-zbrush  competencias_explic  flex--evenly  vCenter  mb50">
+                    <div class="flex--evenly  w100">
+                        <p class="mb40  competencias_title"><span class="destacado">ZBrush</span> - modelaje 3D</p>
+                    </div>
+
+                    <p class="txtc  mb30">Algunos ejemplos de modelajes 3D, originales y FanArts, modelados y
+                        renderizados por mí.</p>
+
+                    <div class="ejemplos">
+                        <img src="img/Figuras_Abe.jpg"
+                            alt="Renderizado 3D del modelaje 3D del protagonista del videojuego 'Oddworld: Abe's Oddysee', Abe, modelado propio.">
+                        <img src="img/figuras_BorGor02.jpg"
+                            alt="Renderizado 3D del detalle de un modelaje 3D de una pieza original mía.">
+                        <img src="img/Figuras_Murcigorsa.jpg" alt="Renderizado 3D de una pieza original mía.">
+                        <img src="img/figuras_Maleficent02.jpg"
+                            alt="Renderizado 3D de Maleficent cuando era niña, con su cuervo Diaval.">
+                        <img src="img/Figuras_Miles.jpg"
+                            alt="Renderizado 3D de un busto de Miles Morales, protagonista de la película de animación 'Spider-Man: Into the Spider-Verse'.">
+                        <img src="img/figuras_Pikachu01.jpg"
+                            alt="Renderizado 3D de una libre interpretación de uno de los personajes más queridos de la serie 'Pokémon', Pikachu.">
+                    </div>
+                </div>
+
+                <!-- ADOBE -->
+                <div class="comp_apart-adobe  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="competencias_title  mb20"><span class="destacado">Adobe</span> - diseño gráfico y
+                            retoque
+                            fotográfico</p>
+                    </div>
+
+                    <div class="flex--center  w100  mb10">
+                        <div class="w5  m10  competencias_logo">
+                            <img src="img/logoPhotoshop.png" alt="Logo Photoshop">
+                        </div>
+                        <div class="w5  m10  competencias_logo">
+                            <img src="img/logoIllustrator.png" alt="Logo Illustrator">
+                        </div>
+                        <div class="w5  m10  competencias_logo">
+                            <img src="img/logoXd.png" alt="Logo XD">
+                        </div>
+                        <div class="w5  m10  competencias_logo">
+                            <img src="img/logoLightroom.png" alt="Logo Lightroom">
+                        </div>
+                        <div class="w5  m10  competencias_logo">
+                            <img src="img/logoPremiere.png" alt="Logo Premiere">
+                        </div>
+                    </div>
+
+                    <div class="ejemplos">
+                        <img src="img/fotoJoya01.jpg"
+                            alt="Ejemplo de fotografía tomada por mí y editada con programas de Adobe. Colgante redondo de mariposas.">
+                        <img class="grid-gif" src="img/fotoProducto01.gif"
+                            alt="Ejemplo de un conjunto de fotografías tomadas por mí y editadas con programas de Adobe para convertirla en un GIF. Colgante de una mujer con un paño para cubrir su cuerpo.">
+                        <img src="img/fotoProducto07.jpg"
+                            alt="Ejemplo de fotografía tomada por mí y editada con programas de Adobe. Sortija de la marca 'UNO de 50'.">
+                        <img class="grid-gif" src="img/fotoProducto02.gif"
+                            alt="Ejemplo de un conjunto de fotografías tomadas por mí y editadas con programas de Adobe para convertirla en un GIF. Pendientes de angelitos agarrando un aro de diamantes.">
+                        <img src="img/fotoJoya08.jpg"
+                            alt="Ejemplo de fotografía tomada por mí y editada con programas de Adobe. Colgante de Adan y Eva con la fruta prohibida.">
+                    </div>
+                </div>
+
+                <!-- NETFABB Y MAGICS -->
+                <div class="comp_apart-netfabb  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title"><span class="destacado">Netfabb & Magics</span> - arreglo de
+                            mallas</p>
+                    </div>
+
+                    <div class="flex--evenly  txtc">
+                        <p>Ambos programas son utilizados para el arreglo de mallas 3D, para así poder realizar
+                            correctamente la producción/impresión de dicho 3D.</p>
+                        <p>Gracias a estas potentes herramientas podemos comprobar que no haya agujeros en las mallas,
+                            vaciar las piezas y cortarlas según lo requiera la pieza.</p>
+                    </div>
+                </div>
+
+                <!-- RHINOCEROS -->
+                <div class="comp_apart-rhino  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title"><span class="destacado">Rhinoceros</span> - modelaje 3D</p>
+                    </div>
+
+                    <div class="flex--evenly  txtc">
+                        <p>Con este programa realizo la mayor parte de trabajos más mecánicos y que requieren una mayor
+                            precisión, como es el caso de la joyería o piezas que requieran ciertos grosores y que con
+                            otros programas, como ZBrush, es más complicado de controlar.</p>
+                        <p class="mb30">Además de modelaje 3D, también hago uso de él para sacar trazados y preparar
+                            planchas de
+                            fotograbado, por ejemplo para marcapáginas o posavasos.</p>
+
+                        <div class="ejemplos">
+                            <img src="img/Marcapaginas_butterfly.jpg" alt="Marcapáginas original de una mariposa.">
+                            <img src="img/Marcapaginas_cat&mouse.jpg"
+                                alt="Marcapáginas original de una gato con un ratón.">
+                            <img src="img/Marcapaginas_Mandragora.jpg"
+                                alt="Marcapáginas original con el logo de 'Mandragora Creations'.">
+                            <img src="img/Marcapaginas_Moyō.jpg"
+                                alt="Marcapáginas original basado en una decoración típica japonesa.">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DISEÑO PROGRAMACION WEB -->
+                <div class="comp_apart-web  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb40  competencias_title  destacado">Diseño y programación Web</p>
+                    </div>
+
+                    <div class="flex--center  w100  mb20">
+                        <div class="w10  m10  competencias_logo">
+                            <img src="img/html.png" alt="Logo de HTML5">
+                        </div>
+                        <div class="w10  m10  competencias_logo">
+                            <img src="img/css.png" alt="Logo de CSS3">
+                        </div>
+                        <div class="w10  m10  competencias_logo">
+                            <img src="img/Sass.png" alt="Logo de Sass">
+                        </div>
+                        <div class="w10  m10  competencias_logo">
+                            <img src="img/js.png" alt="Logo JavaScript">
+                        </div>
+                        <div class="w10  m10  competencias_logo">
+                            <img src="img/php.png" alt="Logo PHP">
+                        </div>
+                        <div class="w10  ml0  competencias_logo">
+                            <img src="img/mamp.png" alt="Logo de MAMP">
+                        </div>
+                    </div>
+
+                    <p class="txtc  mb30">Algunos ejemplos de juegos y páginas programadas por mí, así como este
+                        currículum
+                        web.</p>
+
+                    <div class="ejemplos">
+                        <a href="https://saracrodriguez.github.io/ReadySetGo/" target="_blank" class="pointer  mr20">
+                            <img src="img/pagWeb_readySetGo.jpg"
+                                alt="Thumbnail para el juego programado por mí de 'Piedra, Papel, Tijera, Lagarto, Spock', basado en dicho juego de la serie 'Big Bang Theory'.">
+                        </a>
+                        <a href="https://saracrodriguez.github.io/calcuAnimalCrossing/" target="_blank"
+                            class="pointer  mr20">
+                            <img src="img/pagWeb_calculator.jpg"
+                                alt="Thumbnail de una calculadora que puedes mover por la pantalla con temas del juego de Switch 'Animal Crossing'.">
+                        </a>
+                        <a href="https://saracrodriguez.github.io/rickMortyMemoryGame/" target="_blank"
+                            class="pointer  mr20">
+                            <img src="img/pagWeb_memory.jpg"
+                                alt="Thumbnail para el juego de memoria con personajes de la serie de animación 'Rick and Morty'.">
+                        </a>
+                        <a href="https://mandragoracreations.com/" target="_blank" class="pointer  mr20">
+                            <img src="img/LOGO-recorte papel_3.png"
+                                alt="Thumbnail con el logo de 'Mandragora Creations', que te llevará a la página web de dicha marca.">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SPINE -->
+                <div class="comp_apart-spine  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title"><span class="destacado">Spine</span> - animación 2D</p>
+                    </div>
+
+                    <div>
+                        <img class="ml30  mr30" src="img/Charmander.gif"
+                            alt="GIF animado de una versión propia del Pokémon Charmander. Animación 2D con Spine.">
+                        <img class="ml30  mr30" src="img/Mankey.gif"
+                            alt="GIF animado de una versión propia del Pokémon Mankey. Animación 2D con Spine.">
+                        <img class="ml30  mr30" src="img/Gastly.gif"
+                            alt="GIF animado de una versión propia del Pokémon Gastly. Animación 2D con Spine.">
+                        <img class="ml30  mr30" src="img/Butterfree.gif"
+                            alt="GIF animado de una versión propia del Pokémon Butterfree. Animación 2D con Spine.">
+                        <img class="ml30  mr30" src="img/Pidgey.gif"
+                            alt="GIF animado de una versión propia del Pokémon Pidgey. Animación 2D con Spine.">
+                    </div>
+                </div>
+
+                <!-- OTROS PROGRAMAS -->
+                <div class="comp_apart-otros  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title  destacado">Otros programas</p>
+                    </div>
+
+                    <div class="flex--center  w100  mb10">
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/keyshot.png" alt="Logo de KeyShot">
+                            <p class="txtc">KeyShot</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/cinema4D.png" alt="Logo de Cinema 4D">
+                            <p class="txtc">Cinema 4D</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/dazStudio.png" alt="Logo de DAZ Studio">
+                            <p class="txtc">DAZ Studio</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/blender.png" alt="Logo de Blender">
+                            <p class="txtc">Blender</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/form.png" alt="Logo de PreForm">
+                            <p class="txtc">PreForm</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/word.png" alt="Logo de Word">
+                            <p class="txtc">Word</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/excel.png" alt="Logo de Excel">
+                            <p class="txtc">Excel</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/ppt.png" alt="Logo de PowerPoint">
+                            <p class="txtc">PowerPoint</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/paintstorm.png" alt="Logo de PaintStorm Studio">
+                            <p class="txtc">PaintStorm Studio</p>
+                        </div>
+                        <div class="w10  ml20  mr20  mb20  competencias_logo  flex  inColumns  vCenter">
+                            <img src="img/krita.png" alt="Logo de Krita">
+                            <p class="txtc">Krita</p>
+                        </div>
+                    </div>
+
+                    <div class="flex--evenly  txtc">
+                        <p>Los 5 primeros programas (KeyShot, Cinema 4D, DAZ Studio, Blender y PreForm) están
+                            relacionados con el 3D. El primero se usa para el renderizado de imágenes estáticas o
+                            animadas; Los 3 siguientes sirven tanto para modelaje 3D como para renderizados y
+                            animaciones; y el último es el programa de la impresora 3D para la colocación de soportes en
+                            la pieza para su correcta impresión.</p>
+                        <p>Los siguientes 3 programas (Word, Excel y PowerPoint) los uso para hacer informes,
+                            presupuestos, facturas y presentaciones.</p>
+                        <p>'PaintStorm Studio' y 'Krita' los uso para complementar a Photoshop debido a sus diferentes
+                            herramientas.</p>
+                    </div>
+                </div>
+
+                <!-- + APTITUDES -->
+                <div class="comp_apart-aptitudes  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title  destacado">Más Aptitudes</p>
+                    </div>
+
+                    <div class="flex--evenly  inColumns  txtc">
+                        <p><span class="puntos">o</span> Escultora con materiales como ‘Monster Clay’ o ‘masilla epoxy
+                            de dos componentes’ entre otros.</p>
+                        <p><span class="puntos">o</span> Fabricación de moldes para reproducción de piezas.</p>
+                        <p><span class="puntos">o</span> Esmaltado en frío.</p>
+                    </div>
+                </div>
+
+                <!-- IDIOMAS -->
+                <div class="comp_apart-idiomas  competencias_explic  flex--evenly  vCenter  mb50  hide">
+                    <div class="flex--evenly  w100">
+                        <p class="mb20  competencias_title  destacado">Idiomas</p>
+                    </div>
+
+                    <div class="flex--evenly  inColumns  txtc">
+                        <p><span class="puntos">o</span> <span class="destacado">Inglés</span> - Nivel Avanzado, tanto
+                            hablado como escrito.</p>
+                        <p><span class="puntos">o</span> <span class="destacado">Japonés hablado</span> - Nivel Medio
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="inColumns">
+            <h2><span>P</span><span>r</span><span>o</span><span>y</span><span>e</span><span>c</span><span>t</span><span>o</span><span>s</span>
+            </h2>
+
+            <div class="txtc  w70">
+                <p class="destacado">Diseñadora y modelista 3D de los siguientes trofeos:
+                </p>
+                <p class="mb20"><span class="puntos">o</span> 12ª ceremonia anual de cine ‘ Golden Eagle ’ de
+                    2014, que tuvo lugar en ‘ Mosfilm Movie ’, Moscú.</p>
+                <div class="flex--center">
+                    <img class="mr20  mb20" src="img/Imagen1.jpg" alt="Trofeo de cine 'Golden Eagle'">
+                    <img class="mr20  mb20" src="img/Imagen2.jpg"
+                        alt="Fotos de ganadores del premio 'Golden Eagle' de 2014">
+                </div>
+
+                <p class="mb20"><span class="puntos">o</span> 13ª ceremonia anual de cine ‘ Golden Eagle ’ de 2015, que
+                    tuvo lugar en ‘ Mosfilm Movie ’, Moscú.</p>
+                <div class="flex--center">
+                    <img class="mr20  mb20" src="img/Imagen1.jpg" alt="Trofeo de cine 'Golden Eagle'">
+                    <img class="mr20  mb20" src="img/Imagen4.jpg"
+                        alt="Una de las ganadoras del premio 'Golden Eagle' de 2015">
+                </div>
+
+                <p class="mb20"><span class="puntos">o</span> 37º ‘ Festival Internacional de Cine de Moscú ’ de 2015.
+                </p>
+                <div class="flex--center">
+                    <img class="mr20  mb20" src="img/Imagen5.jpg"
+                        alt="Trofeo del 'Festival de Cine de Moscú' de 2015. San Jorge a caballo y el dragón.">
+                </div>
+
+                <p class="mb20"><span class="puntos">o</span> ‘ I Believe. Konstantin Stanislavski Award ’, un premio
+                    especial otorgado a partir de 2001 en el ‘ Festival Internacional de Cine de Moscú ’ por los
+                    excepcionales logros en la carrera de la actuación y por la devoción a los principios de la escuela
+                    Stanislavski ( ‘ Por conquistar la cumbre de la actuación y la fidelidad ‘ como se formula
+                    tradicionalmente).
+                </p>
+                <div class="flex--center">
+                    <img class="mr20  mb20" src="img/Imagen6.jpg"
+                        alt="Trofeo 'I Believe. Konstantin Stanislavski Award'.">
+                    <img class="mr20  mb20" src="img/Imagen7.jpg"
+                        alt="Ganadora del premio 'I Believe. Konstantin Stanislavski Award'.">
+                </div>
+
+                <p class="mb20"><span class="destacado">Diseñadora y modelista 3D</span> de una escultura con reloj para
+                    el ‘ Charity Auction on the British Polo Day’ del verano de 2014 para ayudar a personas con
+                    discapacidad mental.
+                </p>
+                <div class="flex--center">
+                    <img class="mr20  mb20" src="img/Imagen8.jpg" alt="Escultura donada para el ‘ Charity Auction on the British Polo Day’ del verano de 2014 para ayudar a personas con
+                    discapacidad mental.">
+                    <img class="mr20  mb20" src="img/Imagen9.jpg"
+                        alt="Participante de dicho evento con la pieza donada.">
+                    <img class="mr20  mb20" src="img/Imagen10.jpg"
+                        alt="Participantes de dicho evento con la pieza donada.">
+                </div>
+
+                <p class="mb20"><span class="destacado">Proyecto Final</span> del curso intensivo de Cinema 4D de la
+                    Escuela Profesional de Nuevas Tecnologías CICE.
+                </p>
+                <div class="flex--center">
+                    <img class="w50  borderRadius  mr20  mb20" src="img/Raices.gif"
+                        alt="Animación del proyecto final presentado para el curso de Cinema 4D impartido por CICE.">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
