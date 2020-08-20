@@ -1761,11 +1761,6 @@
             }
          }
       }
-      .section_proyectos {
-         img {
-            width: 50%;
-         }
-      }
    }
    @media(max-width: 1440px) {
       .section_experiencia {
@@ -1887,12 +1882,6 @@
       .section_proyectos {
          .proyectos_container {
             width: 100%;
-         }
-         img {
-            width: 35%;
-         }
-         img.img_except {
-            width: 50%;
          }
       }   
    }

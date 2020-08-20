@@ -1948,9 +1948,6 @@ h6, .h6 {
   .section_sobreMi .sobreMi_txt p {
     text-align: center;
   }
-  .section_proyectos img {
-    width: 50%;
-  }
 }
 
 @media (max-width: 1440px) {
@@ -2066,12 +2063,6 @@ h6, .h6 {
   }
   .section_proyectos .proyectos_container {
     width: 100%;
-  }
-  .section_proyectos img {
-    width: 35%;
-  }
-  .section_proyectos img.img_except {
-    width: 50%;
   }
 }
 
