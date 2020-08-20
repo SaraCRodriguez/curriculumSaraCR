@@ -1949,10 +1949,7 @@ h6, .h6 {
     text-align: center;
   }
   .section_proyectos img {
-    width: 320px;
-  }
-  .section_proyectos img.img_except {
-    width: 640px;
+    width: 50%;
   }
 }
 
@@ -1984,12 +1981,6 @@ h6, .h6 {
   }
   .section_experiencia .experiencia_exp {
     width: 100%;
-  }
-  .section_proyectos img {
-    width: 250px;
-  }
-  .section_proyectos img.img_except {
-    width: 500px;
   }
 }
 
@@ -2077,10 +2068,10 @@ h6, .h6 {
     width: 100%;
   }
   .section_proyectos img {
-    width: 200px;
+    width: 35%;
   }
   .section_proyectos img.img_except {
-    width: 400px;
+    width: 50%;
   }
 }
 

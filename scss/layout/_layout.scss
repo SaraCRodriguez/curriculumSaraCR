@@ -1763,10 +1763,7 @@
       }
       .section_proyectos {
          img {
-            width: 320px;
-         }
-         img.img_except {
-            width: 640px;
+            width: 50%;
          }
       }
    }
@@ -1802,14 +1799,6 @@
          }
          .experiencia_exp {
             width: 100%;
-         }
-      }
-      .section_proyectos {
-         img {
-            width: 250px;
-         }
-         img.img_except {
-            width: 500px;
          }
       }
    }
@@ -1900,10 +1889,10 @@
             width: 100%;
          }
          img {
-            width: 200px;
+            width: 35%;
          }
          img.img_except {
-            width: 400px;
+            width: 50%;
          }
       }   
    }
