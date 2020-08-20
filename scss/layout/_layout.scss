@@ -336,7 +336,7 @@
    // apartado 1
    .sobreMi_foto {
       max-width: 400px;
-      min-width: 320px;
+      min-width: 250px;
       opacity: 0;
       animation: sobreMi_foto .4s ease-in-out .2s 1 normal forwards;
       transition: .4s ease-in-out;
@@ -1630,6 +1630,11 @@
                font-size: 1.2rem;
             }
          }
+         img.spine_img {
+            background-color: $color-white;
+            border-radius: 20px;
+            padding: 20px;
+         }
          .competencias_logo {
             img {
                border-radius: 10px;
@@ -1765,6 +1770,18 @@
          }
       }
    }
+   @media(max-width: 1440px) {
+      .section_experiencia {
+         img {
+            max-width: 200px;
+         }
+      }
+      .section_competencias {
+         .competencias_logo {
+            width: 120px;
+         }
+      }
+   }
    @media(max-width: 1260px) {
       .contactForm, .btn__up {
          opacity: .8;
@@ -1785,11 +1802,6 @@
          }
          .experiencia_exp {
             width: 100%;
-         }
-      }
-      .section_competencias {
-         .competencias_logo {
-            width: 120px;
          }
       }
       .section_proyectos {
@@ -1821,12 +1833,102 @@
          }
       }
    }
-   @media(max-width: 630px) {
+   @media(max-width: 850px) {
+      h3 {
+         font-size: 1.5rem;
+      }
+      p {
+         color: $color-black
+      }
+      .contactForm, .btn__up {
+         margin: 10px;
+      }
+      .contactForm {
+         width: 60px;
+      }
+      .btn__up {
+         .h3 {
+            font-size: 1rem;
+         }
+      }
+   }
+   @media(max-width: 750px) {
+      .selectIdiom {
+         right: -55px;
+         .h3 {
+            font-size: 1rem;
+         }
+      }
+   }
+   @media(max-width: 640px) {
+      section {
+         width: 100%;
+      }
+      h2 {
+         font-size: 1.8rem;
+         margin-bottom: 0;
+      }
+      .container__contactForm {
+         top: 0;
+         div {
+            flex-direction: column;
+            img {
+               width: 80px;
+            }
+            p, a {
+               font-size: .8rem;
+            }
+         }
+      }
       .section_estudios {
          width: 100%;
          margin: 0;
          h3 {
             font-size: 1rem;
+         }
+      }
+      .section_experiencia {
+         .load-1, .load-2 {
+            .line:nth-of-type(4),
+            .line:nth-of-type(5) {
+               display: none;
+            }
+         }
+      }
+      .section_proyectos {
+         .proyectos_container {
+            width: 100%;
+         }
+         img {
+            width: 200px;
+         }
+         img.img_except {
+            width: 400px;
+         }
+      }   
+   }
+   @media(max-width: 400px) {
+      h1 {
+         font-size: 1.8rem;
+      }
+      h2 {
+         font-size: 1.4rem;
+      }
+      h3 {
+         font-size: 1.2rem;
+      }
+      p {
+         font-size: .7rem;
+      }
+      .container__contactForm {
+         div {
+            img {
+               width: 50px;
+            }
+            p, a {
+               font-size: .6rem;
+               color: $color-white;
+            }
          }
       }
    }

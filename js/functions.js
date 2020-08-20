@@ -490,6 +490,7 @@ comp_zbrush.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_zbrush.scrollIntoView();
 });
 comp_adobe.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -510,6 +511,7 @@ comp_adobe.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_adobe.scrollIntoView();
 });
 comp_netfabb.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -530,6 +532,7 @@ comp_netfabb.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_netfabb.scrollIntoView();
 });
 comp_rhino.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -550,6 +553,7 @@ comp_rhino.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_rhino.scrollIntoView();
 });
 comp_web.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -570,6 +574,7 @@ comp_web.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_web.scrollIntoView();
 });
 comp_spine.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -590,6 +595,7 @@ comp_spine.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_spine.scrollIntoView();
 });
 comp_otros.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -610,6 +616,7 @@ comp_otros.addEventListener('click', function () {
     comp_apart_otros.classList.remove('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_otros.scrollIntoView();
 });
 comp_aptitudes.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -630,6 +637,7 @@ comp_aptitudes.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.remove('hide');
     comp_apart_idiomas.classList.add('hide');
+    comp_apart_aptitudes.scrollIntoView();
 });
 comp_idiomas.addEventListener('click', function () {
     comp_zbrush.classList.remove('magic--underline');
@@ -650,4 +658,5 @@ comp_idiomas.addEventListener('click', function () {
     comp_apart_otros.classList.add('hide');
     comp_apart_aptitudes.classList.add('hide');
     comp_apart_idiomas.classList.remove('hide');
+    comp_apart_idiomas.scrollIntoView();
 });
