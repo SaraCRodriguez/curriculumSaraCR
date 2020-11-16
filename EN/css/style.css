@@ -1966,6 +1966,12 @@ h6, .h6 {
   }
 }
 
+@media (max-width: 750px) {
+  .selectIdiom .h3 {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 640px) {
   section {
     width: 100%;
