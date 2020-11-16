@@ -1967,9 +1967,6 @@ h6, .h6 {
 }
 
 @media (max-width: 750px) {
-  .selectIdiom {
-    right: -55px;
-  }
   .selectIdiom .h3 {
     font-size: 1rem;
   }
